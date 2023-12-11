@@ -1,16 +1,16 @@
 @font-face {
     font-family: Manrope-Medium;
-    src: url(/fonts/Manrope-Medium-500.ttf);
+    src: url(fonts/Manrope-Medium-500.ttf);
 }
 
 @font-face {
     font-family: Manrope-SemiBold;
-    src: url(/fonts/Manrope-SemiBold.ttf);
+    src: url(fonts/Manrope-SemiBold.ttf);
 }
 
 @font-face {
     font-family: Ogg-Medium;
-    src: url(/fonts/Ogg-Medium.ttf);
+    src: url(fonts/Ogg-Medium.ttf);
 }
 
 
