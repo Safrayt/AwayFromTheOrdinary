@@ -253,3 +253,69 @@
 .part__1__items__description__img {
     width: 790px;
 }
+
+
+/* Why choose us? */
+
+.part__2 {
+    background-color: #000000;
+}
+.part__2__container {
+    padding-top: 180px;
+    width: 1600px;
+    height: 1300px;
+    margin: 0 auto;
+    background-color: #F4EFE9;
+}
+.part__2__name {
+    font-family: "Manrope-SemiBold";
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 100px;
+    white-space: nowrap;
+    color: #9D9EA4;
+}
+.part__2__items {
+    padding-left: 470px;
+}
+.part__2__items__title {
+    max-width: 877px;
+    font-family: "Ogg-Medium";
+    font-size: 69px;
+    line-height: 106%;
+    letter-spacing: 0.015em;
+    font-weight: 400;
+}
+.part__2__items__line {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 176px;
+}
+
+.part__2__items__line__line {
+    width: 1px;
+    height: 387px;
+    background-color: #9D9EA4;
+}
+
+.part__2__items__line__item {
+    width: 259px;
+    height: 393px;
+}
+
+
+.part__2__items__line__item__title {
+    font-family: "Manrope-SemiBold";
+    font-size: 20px;
+    color: #CC914A;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.part__2__items__line__item__text {
+    font-family: "Manrope-Medium";
+    font-size: 16px;
+    color: #191929;
+    padding-top: 10px;
+}
