@@ -1,115 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Away from the Ordinary - tailor-made travel in Scotland, crafted just for you</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
 </head>
 <body>
-    <!-- шапка -->
-    <div class="header">
-        <div class="header__container">
-            <div class="header__inner">
-                <div class="header__logo">
-                    <img src="img/logo.png" alt="">
-                </div>
-                <div class="header__nav">
-                    <li>Whisky</li>
-                    <li>Inspiration</li>
-                    <li>Contacts</li>
-                    <li>Blog</li>
-                    <div class="header_button">Contact us</div>
+    <header class="content-section header">
+        <a class="header__logo">
+            <img src="./images/logo.svg" class="header__logo-image" alt="Logotype">
+        </a>
+        <nav class="header__menu">
+            <ul class="header__links-list">
+                <li class="header__links-list-item">
+                    <a href="#">Whisky</a>
+                </li>
+                <li class="header__links-list-item">
+                    <a href="#">Inspiration</a>
+                </li>
+                <li class="header__links-list-item">
+                    <a href="#">Contacts</a>
+                </li>
+                <li class="header__links-list-item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="header__links-list-item header__link_active">
+                    <a href="#">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="burger">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+        </button>
+    </header>
+    <main class="content-section">
+        <section class="cover">
+            <div class="cover__inner">
+                <a class="cover__background">
+                    <img class="cover__background-image" src="images/cover.png" alt="">
+                </a>
+                <h1 class="cover__title">
+                    <span class="align-text">Away</span>
+                    <span class="align-text_center">from the</span>
+                    <span class="align-text_right">ordinary</span>
+                </h1>
+                <div class="cover__description">
+                    <div class="cover__description-text">Tailor-made travel in Scotland,<br class="br-width-1600">crafted just for you.</div>
+                    <button type="button" class="start-button" href="#">Start your dream trip</button>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- обложка -->
-    <div class="title">
-        <div class="title__container">
-            <div class="inner__title">
-                <div class="title_background">
-                    <div class="img"><img src="img/img1.png" alt=""></div>
-                </div>
-                <!-- бежевый текст -->
-                <div class="title__name_1">Away</div>
-                <div class="title__name_2">from the</div>
-                <div class="title__name_3">ordinary</div>
-                <div class="title__name_4">
-                    <div class="title__name_4_1">Tailor-made travel in Scotland, crafted just for you.</div>
-                </div>
-                <div class="title__name_5">start your dream trip</div>
+            <div class="cover-inner-noClip">
+                <h1 class="cover__title">
+                    <span class="align-text">Away</span>
+                    <span class="align-text_center">from the</span>
+                    <span class="align-text_right">ordinary</span>
+                </h1>
             </div>
+        </section>
+        <section class="whatWeDo">
+            <ul class="section-list">
+                <li class="section-list-item">
+                    <h3 class="section__title">What we do</h3>
+                </li>
+                <li class="section-list-item">
+                    <div class="section__content">
+                        <h2 class="section__content-title whatWeDo__content-title">Away from the Ordinary is a<br class="br-width-1600">travel <br class="br-width-460"> company quite unlike<br class="br-width-1600"> any other</h2>
+                        <ul class="section__content-list whatWeDo__content-list">
+                            <li class="content-list-item whatWeDo-list-item">
+                                <p class="content-item-text whatWeDo__item-text">Our founder, Aeneas O’Hara, crafts tailor-<br class="br-width-1600"><br class="br-width-460">made travel experiences in Scotland<br class="br-width-1600"><br class="br-width-460"> curated with you in mind.
+                                    Our connections<br class="br-width-1600"><br class="br-width-460"> throughout Scotland enable us to offer<br class="br-width-1600"><br class="br-width-460"> you a holiday experience that is unique to<br class="br-width-1600"><br class="br-width-460"> your passions and interests.
+                                    Away from<br class="br-width-1600"><br class="br-width-460"> the Ordinary is here to help you design<br class="br-width-1600"><br class="br-width-460"> your vacation whether it's your bucket list<br class="br-width-1600"><br class="br-width-460"> trip, honeymoon,
+                                    birthday celebration or<br class="br-width-1600"><br class="br-width-460"> family reunion.
+                                </p>
+                                <img class="content-item-image whatWeDo__item-image" src="./images/whatWeDo.png" alt="" >
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="whyChooseUs">
+            <ul class="section-list">
+                <li class="section-list-item">
+                    <h3 class="section__title">Why choose us?</h3>
+                </li>
+                <li class="section-list-item">
+                    <div class="section__content">
+                        <h2 class="section__content-title whyChooseUs__content-title">We make sure that your trip<br class="br-width-1600"> to<br class="br-width-460"> our wonderful nation<br class="br-width-1600"> surpasses<br class="br-width-460"> all expectations</h2>
+                        <ul class="section__content-list whyChooseUs__content-list">
+                            <li class="content-list-item">
+                                <img class="content-item-image whyChooseUs__item-image" src="./images/whyChooseUs_1.png" alt="" >
+                                <h4 class="content-item-title whyChooseUs__item-title">Personalised design</h4>
+                                <p class="content-item-text whyChooseUs__item-text">We create a hyper-personalised<br class="br-width-1600"><br class="br-width-460"> itinerary that reflects your<br class="br-width-1600"><br class="br-width-460"> interests and passions,
+                                    book the<br class="br-width-1600"><br class="br-width-460"> hotels, tours and restaurants.
+                                </p>
+                            </li>
+                            <li class="content-list-item-line line-width-1600"></li>
+                            <li class="content-list-item-line line-width-460"></li>
+                            <li class="content-list-item">
+                                <img class="content-item-image whyChooseUs__item-image" src="./images/whyChooseUs_2.png" alt="" >
+                                <h4 class="content-item-title whyChooseUs__item-title">Heritage</h4>
+                                <p class="content-item-text whyChooseUs__item-text">Working with a genealogist to<br class="br-width-1600"><br class="br-width-460"> trace your roots, we organise<br class="br-width-1600"><br class="br-width-460"> trips to the areas and villages<br class="br-width-1600"><br class="br-width-460"> where your ancestors resided.
+                                </p>
+                            </li>
+                            <li class="content-list-item-line line-width-1600"></li>
+                            <li class="content-list-item">
+                                <img class="content-item-image whyChooseUs__item-image" src="./images/whyChooseUs_3.png" alt="" >
+                                <h4 class="content-item-title whyChooseUs__item-title">Private excursions</h4>
+                                <p class="content-item-text whyChooseUs__item-text">Travel with specialist guides,<br class="br-width-1600"><br class="br-width-460"> private access to sights and<br class="br-width-1600"><br class="br-width-460"> excursions to historical castles<br class="br-width-1600"><br class="br-width-460"> during non-working hours.
+                                </p>
+                            </li>
+                            <li class="content-list-item-line line-width-460"></li>
+                            <li class="content-list-item">
+                                <img class="content-item-image whyChooseUs__item-image" src="./images/whyChooseUs_4.png" alt="" >
+                                <h4 class="content-item-title whyChooseUs__item-title">Sustainability</h4>
+                                <p class="content-item-text whyChooseUs__item-text">We invest in inhabitants and<br class="br-width-1600"><br class="br-width-460"> benefit the local economy – so<br class="br-width-1600"><br class="br-width-460"> that Scotland can be enjoyed for<br class="br-width-1600"><br class="br-width-460"> generations to come.
+                                </p>
+                            </li>
+                            <li class="content-list-item-line line-width-1600"></li>
+                            <li class="content-list-item">
+                                <img class="content-item-image whyChooseUs__item-image" src="./images/whyChooseUs_5.png" alt="" >
+                                <h4 class="content-item-title whyChooseUs__item-title">Whiskey tastings</h4>
+                                <p class="content-item-text whyChooseUs__item-text">We provide individual whisky<br class="br-width-1600"><br class="br-width-460"> tastings and unique trips to<br class="br-width-1600"><br class="br-width-460"> distilleries in Scotland which<br class="br-width-1600"><br class="br-width-460"> include private distillery tours.
+                                </p>
+                            </li>
+                            <li class="content-list-item-line line-width-1600"></li>
+                            <li class="content-list-item-line line-width-460"></li>
+                            <li class="content-list-item">
+                                <img class="content-item-image whyChooseUs__item-image" src="./images/whyChooseUs_6.png" alt="" >
+                                <h4 class="content-item-title whyChooseUs__item-title">Scottish hospitality</h4>
+                                <p class="content-item-text whyChooseUs__item-text">We ensures that your Scottish<br class="br-width-1600"><br class="br-width-460"> experience will be authentic,<br class="br-width-1600"><br class="br-width-460"> offering real connection with <br class="br-width-460">the<br class="br-width-1600"> communities.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
 
-            <!-- Чёрный текст -->
-            <div class="out__title">
-                <div class="out__title__name_1">Away</div>
-                <div class="out__title__name_3">ordinary</div>
-            </div>
-        </div>
-    </div>
-    <!-- What we do -->
-    <div class="part__1">
-        <div class="part__1__container">
-            <div class="inner__part__1">
-                <div class="part__1__name">What we do</div>
-                <div class="part__1__items">
-                    <div class="part__1__items__title">Away from the Ordinary is a travel company quite unlike any other</div>
-                    <div class="part__1__items__description">
-                        <div class="part__1__items__description__text">Our founder, Aeneas O’Hara, crafts tailor-made travel experiences in Scotland curated with you in mind. Our connections throughout Scotland enable us to offer you a holiday experience that is unique to your passions and interests. Away from the Ordinary is here to help you design your vacation whether it's your bucket list trip, honeymoon, birthday celebration or family reunion.</div>
-                        <div class="part__1__items__description__img"><img src="img/img2.png" alt=""></div>
+        <section class="inspiration">
+            <ul class="section-list">
+                <li class="section-list-item">
+                    <h3 class="section__title">Inspiration</h3>
+                </li>
+                <li class="section-list-item">
+                    <div class="section__content">
+                        <h2 class="section__content-title inspiration__content-title">Reasons why you should<br>visit Scotland</h2>
+                        <ul class="section__content-list inspiration__content-list">
+                            <ul class="inspiration-list">
+                                <li class="content-list-item inspiration-list-item">
+                                    <h4 class="content-item-title inspiration__item-title">Castles</h4>
+                                    <p class="content-item-text inspiration__item-text">A trip to Scotland would not be<br class="br-width-1600"> complete without a visit to<br class="br-width-460"> an authentic<br class="br-width-1600"> Scottish castle.</p>
+                                    <p class="content-item-text inspiration__item-text">From overnight stays in luxurious castle<br class="br-width-1600"> accommodations,<br class="br-width-460"> to after-hour tours of<br class="br-width-1600"> historical houses and estates, Away<br class="br-width-1600"><br class="br-width-460"> from the Ordinary will make certain you<br class="br-width-1600"> sample the best of<br class="br-width-460"> Scotland’s castles.
+                                    </p>
+                                </li>
+                                <li class="content-list-item inspiration-list-item">
+                                    <h4 class="content-item-title inspiration__item-title">Castles</h4>
+                                    <p class="content-item-text inspiration__item-text">A trip to Scotland would not be<br class="br-width-1600"> complete without a visit to an authentic<br class="br-width-1600"> Scottish castle.</p>
+                                    <p class="content-item-text inspiration__item-text">From overnight stays in luxurious castle<br class="br-width-1600"> accommodations, to after-hour tours of<br class="br-width-1600"> historical houses and estates, Away<br class="br-width-1600"> from the Ordinary will make certain you<br class="br-width-1600"> sample the best of Scotland’s castles.
+                                    </p>
+                                </li>
+                            </ul>
+                            
+                            <li class="content-list-image inspiration__list-image">
+                                <img class="content-image inspiration-image" src="./images/inspiration_1.png" alt="" >
+                                <img class="content-image inspiration-image" src="./images/inspiration_2.png" alt="" >
+                                <img class="content-image inspiration-image" src="./images/inspiration_3.png" alt="" >
+                                <img class="content-image inspiration-image" src="./images/inspiration_4.png" alt="" >
+                                <img class="content-image inspiration-image" src="./images/inspiration_5.png" alt="" >
+                                <img class="content-image inspiration-image" src="./images/inspiration_6.png" alt="" >
+                            </li>
+                        </ul>
                     </div>
+                </li>
+            </ul>
+        </section>
 
+        <section class="aboutUs">
+            <ul class="section-list">
+                <li class="section-list-item">
+                    <h3 class="section__title aboutUs__title">About us</h3>
+                </li>
+                <li class="section-list-item">
+                    <div class="section__content">
+                        <ul class="section__content-list aboutUs__content-list">
+                            <li class="content-list-item aboutUs-list-item aboutUs-list-item-experience">    
+                                <h4 class="content-item-title aboutUs__item-title">Experience</h4>
+                                <p class="content-item-text aboutUs__item-text aboutUs__item-text-padding">More than</p>
+                                <h4 class="content-item-title aboutUs__item-title aboutUs__item-title-number">5</h4>
+                                <p class="content-item-text aboutUs__item-text">Years we create<br class="br-width-1600"> exclusive<br class="br-width-460"> tours in Scotland</p>
+                            </li>
+                            <li class="content-list-item aboutUs-list-item aboutUs-list-item-savingTime">
+                                <h4 class="content-item-title aboutUs__item-title">Saving time</h4>
+                                <p class="content-item-text aboutUs__item-text aboutUs__item-text-padding">Up to</p>
+                                <h4 class="content-item-title aboutUs__item-title aboutUs__item-title-number">10</h4>
+                                <p class="content-item-text aboutUs__item-text">Days we save the<br class="br-width-1600"> client<br class="br-width-460"> on studying<br class="br-width-1600"> hotel reviews</p>
+                            </li>
+                            <li class="content-list-item aboutUs-list-item aboutUs-list-item-tailorMade">
+                                <h4 class="content-item-title aboutUs__item-title">Tailor-made</h4>
+                                <p class="content-item-text aboutUs__item-text aboutUs__item-text-padding">From</p>
+                                <h4 class="content-item-title aboutUs__item-title aboutUs__item-title-number">0</h4>
+                                <p class="content-item-text aboutUs__item-text">We create<br class="br-width-1600"> your<br class="br-width-460"> individual<br class="br-width-1600"> tour plan</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        
+
+        <section class="feedback">
+            <ul class="section-list">
+                <li class="section-list-item">
+                    <h3 class="section__title feedback__title">Feedback</h3>
+                </li>
+                <li class="section-list-item">
+                    <div class="section__content">
+                        <div class="arrows feedback-arrows">
+                            <div  class="left_arrow"></div>
+                            <div  class="right_arrow"></div>
+                        </div>
+                        <ul class="section__content-list feedback__content-list">
+                            <li class="content-list-item feedback-list-item feedback-list-item-first">    
+                                <h4 class="content-item-title feedback__item-title">Dan Cliff</h4>
+                                <p class="content-item-text feedback__item-text feedback__item-text-padding">“I’ve never been on a better trip than<br>my last one organised by Away from<br>the Ordinary. We did and saw so much<br>in Scotland, none of which was in the<br>guidebook!”</p>
+                                <h4 class="content-item-title feedback__item-title feedback__item-title-place">London</h4>
+                            </li>
+                            <li class="content-list-item feedback-list-item feedback-list-item-second">    
+                                <h4 class="content-item-title feedback__item-title feedback__item-title-color">Jim Campbell</h4>
+                                <p class="content-item-text feedback__item-text feedback__item-text-padding feedback__item-text-color">“Every accommodation, restaurant,<br>recommended sight-seeing and<br>location specific guide that he set up<br>for us was superb. He was incredibly<br>responsive and thorough.”</p>
+                                <h4 class="content-item-title feedback__item-title feedback__item-title-place">California</h4>
+                            </li>
+                            <li class="content-list-item feedback-list-item feedback-list-item-third">    
+                                <h4 class="content-item-title feedback__item-title">Flora Ng</h4>
+                                <p class="content-item-text feedback__item-text feedback__item-text-padding">“With the perfect planning by Aeneas, I<br>just simply relaxed and enjoyed the trip.<br>I was really impressed by the hotels and<br>restaurants he picked for us.”</p>
+                                <h4 class="content-item-title feedback__item-title feedback__item-title-place">Hong Kong</h4>
+                            </li>
+                            <li class="content-list-item feedback-list-item feedback-list-item-image">
+                                <img  src="images/feedback_1.png" class="feedback-list-item-image-border" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="founder">
+            <ul class="section-list">
+                <li class="section-list-item">
+                    <h3 class="section__title">Founder</h3>
+                </li>
+                <li class="section-list-item">
+                    <div class="section__content">
+                        <h2 class="section__content-title founder__content-title">Aeneas O’Hara</h2>
+                        <ul class="section__content-list founder__content-list">
+                            <li class="content-list-item founder-list-item">
+                                <p class="content-item-text founder__item-text founder__item-text-padding">Aeneas O’Hara founded “Away from the<br>Ordinary” in 2017.</p>
+                                <p class="content-item-text founder__item-text">Aeneas was born in Skye and spent summers<br>on the isle of Eilean Shona but has also been<br>to more than 40 countries. This means he<br>sees Scotland through the eyes of both a<br>native and a tourist so can show clients the<br>best of what Scotland has to offer.
+                                </p>
+                                <p class="content-item-text founder__item-text">Working in financial technology and<br>travelling six months of the year, he saw an<br>opportunity for a curated travel service for<br>the discerning traveller.</p>
+                                <p class="content-item-text founder__item-text">By taking the time to understand you as an<br>individual, Aeneas crafts an itinerary that<br>surpasses all expectations: helping you to<br>make memories to last a lifetime.</p>
+                            </li>
+                            
+                            <li class="content-list-image founder__list-image">
+                                <img class="content-image founder-image founder-image_1" src="./images/founder_1.png" alt="" >
+                                <img class="content-image founder-image founder-image_2" src="./images/founder_2.png" alt="" >
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="whiskyTastings">
+            <ul class="section-list">
+                <li class="section-list-item">
+                    <h3 class="section__title">Whisky tastings</h3>
+                </li>
+                <li class="section-list-item">
+                    <div class="section__content">
+                        <ul class="whiskyTastings-top">
+                            <h2 class="section__content-title whiskyTastings__content-title">What could be more<br>synonymous with<br>Scotland than whisky?</h2>
+                            <button type="button" class="start-button whiskyTastings-button" href="#">Enquire about whisky</button>
+                        </ul>
+                        <img class="whiskyTastings-video" src="images/video.png"></img>
+                        <ul class="whiskyTastings__textSection">
+                            <li class="whiskyTastings__textSection-text">
+                                <p class="content-item-text whiskyTastings-item-text">Aeneas O’Hara, is now hosting a wealth of<br>virtual whisky and jin tastings to guide you<br>through the story captured in the spirit.</p>
+                                <p class="content-item-text whiskyTastings-item-text whiskyTastings-item-text-padding">These tailor-made, guided tastings can also<br>include exquisite cheese or chocolate<br>pairings, and for cinema lovers, the <span class="uppercase-text line-text">watch<br>with whisky</span> series offers a perfect evening<br>of entertainment. </p>
+                            </li>
+                            <li class="whiskyTastings__textSection-text">
+                                <p class="content-item-text whiskyTastings-item-text">If you’ve discovered a thirst for whisky or gin<br>knowledge, Away from the Ordinary also<br>offers unique distillery trips in Scotland.</p>
+                                <p class="content-item-text whiskyTastings-item-text whiskyTastings-item-text-padding">Whether you’d like to join one of our regular<br>tastings, travel to Scottish distilleries, or even<br>book a private tasting for a special event, get<br>in touch directly with Aeneas.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="blog">
+            <ul class="section-list section-list-blog">
+                <li class="section-list-item">
+                    <h3 class="section__title">Blog</h3>
+                </li>
+                <li class="section-list-item">
+                    <div class="section__content">
+                        <ul class="blog-top">
+                            <h2 class="section__content-title blog__content-title">Learn more about Scotland</h2>
+                             <p class="viewAll-button line-text"><a href="#">View All</a></a></p>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <ul class="section__content-list blog__content-list">
+                <li class="content-list-item blog-list-item">
+                    <a href="#">
+                        <img class="content-item-image blog__item-image" src="images/blog_1.png" alt="" >
+                        <h4 class="content-item-title blog__item-title">Solo Female Travel<br>in Scotland</h4>
+                        <p class="content-item-date blog__item-date">1st February 2023</p>
+                    </a>
+                </li>
+                <li class="content-list-item blog-list-item">
+                    <a href="#">
+                        <img class="content-item-image blog__item-image" src="images/blog_2.png" alt="" >
+                        <h4 class="content-item-title blog__item-title">5 inspiring women changing<br>the whisky industry</h4>
+                        <p class="content-item-date blog__item-date">20th May 2022</p>
+                    </a>
+                </li>
+                <li class="content-list-item blog-list-item">
+                    <a href="#">
+                        <img class="content-item-image blog__item-image" src="images/blog_3.png" alt="" >
+                        <h4 class="content-item-title blog__item-title">72 hours in Edinburgh</h4>
+                        <p class="content-item-date blog__item-date">29th March 2022</p>
+                    </a>
+                </li>
+                <li class="content-list-item blog-list-item">
+                    <a href="#">
+                        <img class="content-item-image blog__item-image" src="images/blog_4.png" alt="" >
+                        <h4 class="content-item-title blog__item-title">7 key scottish<br>activities to book<br>in advance</h4>
+                        <p class="content-item-date blog__item-date">1st February 2023</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="yourDreamVisit">
+            <h3 class="yourDreamVisit__title">LET'S PLAN YOUR DREAM VISIT</h3>
+            <div class="yourDreamVisit__content-box">
+                <div class="yourDreamVisit__content">
+                    <p class="yourDreamVisit__content-text">Are you</p>
+                    <img src="images/yourDreamVisit_1.png" class="yourDreamVisit__content-image" alt="">
+                </div>
+                <div class="yourDreamVisit__content">
+                    <img src="images/yourDreamVisit_2.png" class="yourDreamVisit__content-image" alt="">
+                    <p class="yourDreamVisit__content-text">ready to discover</p>
+                </div>
+                <div class="yourDreamVisit__content">
+                    <p class="yourDreamVisit__content-text">a Scotland</p>
+                    <img src="images/yourDreamVisit_3.png" class="yourDreamVisit__content-image" alt="">
+                    <p class="yourDreamVisit__content-text">that’s</p>
+                </div>
+                <div class="yourDreamVisit__content">
+                    <p class="yourDreamVisit__content-text">Away from the Ordinary?</p>
                 </div>
             </div>
-        </div>
-    </div>       
-    <!-- Why choose us? -->
-    <div class="part__2">
-        <div class="part__2__container">
-            <div class="part__2__name">Why choose us?</div>
-                <div class="part__2__items">
-                    <div class="part__2__items__title">We make sure that your trip to our wonderful nation surpasses all expectations</div>
-                    <div class="part__2__items__line">
-                        <div class="part__2__items__line__item">
-                            <div class="part__2__items__line__item__img"><img src="img/img_2_1.png" alt=""></div>
-                            <div class="part__2__items__line__item__title">Personalised design</div>
-                            <div class="part__2__items__line__item__text">We create a hyper-personalised itinerary that reflects your interests and passions, book the hotels, tours and restaurants.</div>
-                        </div>
-                        <div class="part__2__items__line__line"></div>
-                        <div class="part__2__items__line__item">
-                            <div class="part__2__items__line__item__img"><img src="img/img_2_2.png" alt=""></div>
-                            <div class="part__2__items__line__item__title">Heritage</div>
-                            <div class="part__2__items__line__item__text">Working with a genealogist to trace your roots, we organise trips to the areas and villages where your ancestors resided.</div>
-                        </div>
-                        <div class="part__2__items__line__line"></div>
-                        <div class="part__2__items__line__item">
-                            <div class="part__2__items__line__item__img"><img src="img/img_2_3.png" alt=""></div>
-                            <div class="part__2__items__line__item__title">private excursions</div>
-                            <div class="part__2__items__line__item__text">Travel with specialist guides, private access to sights and excursions to historical castles during non-working hours.</div>
-                        </div>
-                    </div>
-                    <div class="part__2__items__line">
-                        <div class="part__2__items__line__item">
-                            <div class="part__2__items__line__item__img"><img src="img/img_2_4.png" alt=""></div>
-                            <div class="part__2__items__line__item__title">Sustainability</div>
-                            <div class="part__2__items__line__item__text">We invest in inhabitants and benefit the local economy – so that Scotland can be enjoyed for generations to come.</div>
-                        </div>
-                        <div class="part__2__items__line__line"></div>
-                        <div class="part__2__items__line__item">
-                            <div class="part__2__items__line__item__img"><img src="img/img_2_5.png" alt=""></div>
-                            <div class="part__2__items__line__item__title">whiskey tastings</div>
-                            <div class="part__2__items__line__item__text">We provide individual whisky tastings and unique trips to distilleries in Scotland which include private distillery tours.</div>
-                        </div>
-                        <div class="part__2__items__line__line"></div>
-                        <div class="part__2__items__line__item">
-                            <div class="part__2__items__line__item__img"><img src="img/img_2_6.png" alt=""></div>
-                            <div class="part__2__items__line__item__title">Scottish hospitality</div>
-                            <div class="part__2__items__line__item__text">We ensures that your Scottish experience will be authentic, offering real connection with the communities.</div>
-                        </div>
-                    </div>
+            <a href="#">
+                <button type="button" class="start-button yourDreamVisit-button">Start Planning Your Tour</button>
+            </a>    
+        </section>
+
+
+        <section class="asSeenIn">
+            <h3 class="asSeenIn__title">As seen in</h3>
+            <div class="asSeenIn__content-box">
+                <div class="asSeenIn__content">
+                    <div class="asSeenIn-ellipse asSeenIn-short-ellipse asSeenIn-transparent"><img class="asSeenIn__logo" src="images/asSeenIn_1.png" alt=""></div>
+                    <div class="asSeenIn-circle asSeenIn-yellow"><img class="asSeenIn__logo" src="images/asSeenIn_2.png" alt=""></div>
+                    <div class="asSeenIn-ellipse asSeenIn-short-ellipse asSeenIn-black"><img class="asSeenIn__logo" src="images/asSeenIn_3.png" alt=""></div>
+                    <div class="asSeenIn-circle asSeenIn-transparent"><img class="asSeenIn__logo" src="images/asSeenIn_4.png" alt=""></div>
+                    <div class="asSeenIn-ellipse asSeenIn-long-ellipse asSeenIn-yellow"><img class="asSeenIn__logo" src="images/asSeenIn_5.png" alt=""></div>  
                 </div>
-        </div>
-    </div>
+                <div class="asSeenIn__content">
+                    <div class="asSeenIn-ellipse asSeenIn-long-ellipse asSeenIn-black"><img class="asSeenIn__logo" src="images/asSeenIn_6.png" alt=""></div>
+                    <div class="asSeenIn-ellipse asSeenIn-short-ellipse asSeenIn-transparent"><img class="asSeenIn__logo" src="images/asSeenIn_7.png" alt=""></div>
+                    <div class="asSeenIn-circle asSeenIn-yellow"><img class="asSeenIn__logo" src="images/asSeenIn_8.png" alt=""></div>
+                    <div class="asSeenIn-ellipse asSeenIn-short-ellipse asSeenIn-black"><img class="asSeenIn__logo" src="images/asSeenIn_9.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <div class="line margin-top-150"></div>
+        <section class="contacts">
+            <h3 class="contacts__title">contacts</h3>
+            <div class="contacts__content-box">
+                <div class="contacts__left-box">
+                    <h4 class="contacts__left-box-title">Sign up to our newsletter<br>to get inspired</h4>
+                    <form class="emailForm">
+                        <input class="emailInput" type="email" id="email" pattern=".+@example\.com" size="34" required placeholder="Enter email address">
+                        <input type="submit" value="Вход">
+                    </form>
+                    <div class="contacts__left-box-line"></div>
+                    <form class="checkboxForm">
+                        <input class="checkboxInput" id="html" type="checkbox">
+                        <label for="html">I agree to the terms and conditions</label>
+                    </form>
+                </div>
+                <div class="contacts__right-box">
+                    <ul class="contacts__right-box-list">
+                        <li class="contacts__right-box-item">
+                            <h4 class="contacts__right-box-title">Phone number</h4>
+                            <p class="contacts__right-box-text">USA: 1 646 827 0700</p>
+                            <p class="contacts__right-box-text">UK & Rest of The World:<br>+44 (0)7757 774290</p>
+                        </li>
+                        <li class="contacts__right-box-item">
+                            <h4 class="contacts__right-box-title">Email</h4>
+                            <p class="contacts__right-box-text">travel@awayfromtheordinary.com</p>
+                            <p class="contacts__right-box-text">whisky@awayfromtheordinary.com</p>
+                        </li>
+                        <li class="contacts__right-box-item">
+                            <h4 class="contacts__right-box-title">Address</h4>
+                            <p class="contacts__right-box-text">Primrose Cottage<br>Aird Bernisdale<br>Portree IV51 9NU<br>Isle of Skye</p>
+                        </li>
+                        <li class="contacts__right-box-item">
+                            <h4 class="contacts__right-box-title">Social</h4>
+                            <p class="contacts__right-box-text">Instagram</p>
+                            <p class="contacts__right-box-text">Facebook</p>
+                            <p class="contacts__right-box-text">Twitter</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="line margin-top-30"></div>
+        <section class="copyrights">
+            <ul class="copyrights__list">
+                <li class="copyrights__list__item">© Away From The Ordinary Ltd. 2023 All Rights Reserved</li>
+                <li class="copyrights__list__item">Made by UPROCK: Olga Valters</li>
+            </ul>
+        </section>
+    </main>  
 </body>
 </html>
